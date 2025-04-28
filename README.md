@@ -23,7 +23,7 @@ Sistema di luci posteriori indossabile per monoruota elettrico (EUC), per sicure
 - BH1750 (luminosità adattiva).
 
 ## Schema Elettrico
-
+```
 Powerbank (5V, ≥3A)
 ├── USB-C → ESP32-C3 Super Mini (5V, GND)
 ├── 5V, GND → Striscia LED WS2812B (10 LED)
@@ -34,7 +34,7 @@ Powerbank (5V, ≥3A)
 ├── Buzzer → GPIO 11
 ├── MPU6050 → SCL: GPIO 5, SDA: GPIO 4, VCC: 3.3V, GND
 └── BH1750 → SCL: GPIO 5, SDA: GPIO 4, VCC: 3.3V, GND
-
+```
 
 ## Installazione
 1. Clona il repository: `git clone https://github.com/your-username/euc-lights`.
