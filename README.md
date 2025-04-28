@@ -47,7 +47,7 @@ Powerbank (5V, ≥3A)
    - EUC: [p-canessa/EUC](https://github.com/p-canessa/EUC).
    - MPU6050: [micropython-mpu6050](https://github.com/micropython-IMU/micropython-mpu6050).
    - BH1750: [micropython-bh1750](https://github.com/PeterDHabermehl/micropython-bh1750).
-6. Copia `mpu6050.py`, `bh1750.py`, `microdot.py`, e `wheellog_euc_micropython` su ESP32.
+6. Copia `mpu6050.py`, `bh1750.py`, `microdot.py`, e `micropython` su ESP32.
 
 ## Utilizzo
 1. Accendi il sistema (interruttore on/off).
@@ -59,7 +59,7 @@ Powerbank (5V, ≥3A)
 3. Usa commutatore per frecce, luci di stop si attivano automaticamente su decelerazione.
 
 ## Test
-- **Connessione BLE**: Verifica con V10F (password "000000") e Sherman Max (no password).
+- **Connessione BLE**: Verifica con l'EUC in tuo possesso.
 - **Luci**:
   - Posizione: Rosso 30%-100% (con BH1750).
   - Frecce: Giallo lampeggiante con beep (se buzzer attivo).
